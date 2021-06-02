@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/google/shlex" //go install github.com/google/shlex@latest
+	"github.com/google/shlex" //go get github.com/google/shlex 
 	"net/http"
 	"os/exec"
 )
