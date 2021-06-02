@@ -2,7 +2,7 @@ usage:
   `gohs [-l [address]:port]`
 
 example:
-  ```$ curl 127.0.0.1:3000/ls%20-al
+  ```> curl 127.0.0.1:3000/ls%20-al
 []string{"ls", "-al"}
 total 12372
 drwxrwxrwx 3 root root    4096 Jun  2 09:45 .
