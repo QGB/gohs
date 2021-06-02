@@ -22,7 +22,7 @@ func eval_cmd(w http.ResponseWriter, q *http.Request) {
 	if err != nil {
 		fmt.Fprintf(w, "%#v\n", err)
 	}
-	fmt.Fprintf(w, outb.String()+"\n"+errb.String()+"\n")
+	fmt.Fprintf(w, errb.String()+"\n"+outb.String()+"\n")
 
 }
 
